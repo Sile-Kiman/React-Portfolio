@@ -2,6 +2,7 @@
 #heading{
     font-family:  'Georgia', Times, 'Times New Roman', 'serif';
     background:#2c0d2b;
+    border-bottom: 8px solid #666666;
 }
 
 .a_link{

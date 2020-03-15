@@ -5,6 +5,7 @@ import Contact from './pages/Contact/contact';
 import Portfolio from './pages/Portfolio/portfolio';
 import Nav from './components/Nav/navbar'
 import Footer from './components/Footer/footer'
+import Resume from '../src/components/Resume/resume'
 import Wrapper from "./components/Wrapper/index";
 
 
@@ -17,7 +18,8 @@ function App() {
           <Route exact path={['/', "/about"]}component={About} />
           <Route exact path= "/contact" component={Contact} />
           <Route exact path= "/portfolio" component ={Portfolio} />
-         </Wrapper>
+          <Route exact path= "/resume" component ={Resume} />
+          </Wrapper>
         <Footer />
       </div>
     </Router>
