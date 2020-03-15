@@ -2,11 +2,15 @@ body{
     
     position: relative; 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-     
+    
   
 }
 
- 
+#heading{
+    font-family:  'Georgia', Times, 'Times New Roman', 'serif';
+    background:#2c0d2b;
+}
+
  
 .main-header{
     background: #2c0d2b;
@@ -30,7 +34,11 @@ body{
     color: #2c0d2b;   
 }
 
- 
+.a_link{
+    color:  #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+}
 
 .box-set{
     box-sizing: border-box;
@@ -108,7 +116,7 @@ h6{
 }
 
 
-p{
+.pet{
     position: absolute;
     bottom: 5px;
     background:  #2c0d2b;
@@ -138,7 +146,7 @@ p{
     /* margin-top: 20px; */
    }
 
-    
+   
 @media only screen 
 and (min-width: 769px)
 and (max-width: 1280px){
