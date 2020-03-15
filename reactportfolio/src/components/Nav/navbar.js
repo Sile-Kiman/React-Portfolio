@@ -1,10 +1,11 @@
 import React from "react";
+import '../Nav/navbar.css'
 
 export default Nav =>{
   return (
    <section id="heading">
       <nav className="navbar navbar-expand-lg" id="heading">
-        <a className="navbar-brand main-header" href="index.html">
+        <a className="navbar-brand main-header" href="/about">
             <h1>Sile Kiman</h1>
         </a>
         <button className="navbar-toggler icon" type="button" data-toggle="collapse"
@@ -15,13 +16,13 @@ export default Nav =>{
         <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul className="navbar-nav">
                 <li className="nav-item">
-                    <a className="nav-link a_link " href="index.html">About</a>
+                    <a className="nav-link a_link " href="/about">About</a>
                 </li>
                 <li className="nav-item active">
-                    <a className="a_link nav-link" href="portfolio.html">Portfolio </a>
+                    <a className="a_link nav-link" href="/portfolio">Portfolio </a>
                 </li>
                 <li className="nav-item">
-                    <a className="a_link nav-link" href="contact.html">Contact</a>
+                    <a className="a_link nav-link" href="/contact">Contact</a>
                 </li>
                
             </ul>
