@@ -35,7 +35,7 @@ body{
     box-sizing: border-box;
     width: 100%;
     border: 2px solid #dddddd;
-     
+    background-image: url(/Portfolio/assets/images/criss-cross.png); 
     padding-bottom: 15px;
 }
 

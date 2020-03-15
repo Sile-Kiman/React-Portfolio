@@ -15,7 +15,7 @@ function App() {
         < Nav/>
          <Wrapper>
           <Route exact path={['/', "/about"]}component={About} />
-          {/* <Route path= "/contact" component={Contact} /> */}
+          <Route exact path= "/contact" component={Contact} />
           <Route exact path= "/portfolio" component ={Portfolio} />
          </Wrapper>
         <Footer />
