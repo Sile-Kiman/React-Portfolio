@@ -1,21 +1,22 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import React  from "react";
 import Quiz from '../../images/startQuizPage.PNG'
 import Mult from '../../images/mult.PNG'
 import Note from '../../images/noteTaker.PNG'
 import Burger from '../../images/burger.PNG'
 import Event from '../../images/desktopView.png'
 import Library  from '../../images/allBooked.PNG'
-import '../Portfolio/style.css' 
+import '../Portfolio/portfolio.css' 
+
+
 function Portfolio() {
 
   return (
     <div>
          
-      <div className="container-fluid main">
+      <div className="container-fluid mainP">
          
           <div id="line">
-            <h1 id="sub_text">Portfolio</h1>
+            <h1 id="sub1_text">Portfolio</h1>
           </div>
 
             <div className="row full_row">
@@ -26,7 +27,7 @@ function Portfolio() {
                           <a href="https://github.com/Sile-Kiman/Web-API-Code-Quiz" target="_blank"> View Code </a>&#124;
                           <a href="https://sile-kiman.github.io/Web-API-Code-Quiz/index.html" target="_blank"> View Site </a>&#124;
                         </div>  
-                        <img src= {Quiz}alt="quiz" /> 
+                        <img class = "imge" src= {Quiz}alt="quiz" /> 
   
                     </div>
                 </div>

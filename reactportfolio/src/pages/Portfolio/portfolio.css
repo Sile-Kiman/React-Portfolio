@@ -6,30 +6,6 @@ body{
     
 }
 
-#heading{
-    font-family:  'Georgia', Times, 'Times New Roman', 'serif';
-    background:#2c0d2b;
-}
-
- 
-.main-header{
-    background: #2c0d2b;
-    border: 1px solid #cccccc;
-    margin-top: 20px;
-    padding-right: 20px;
-    text-align: center;
-    width: 370px;
-    margin-bottom: 0px;
-    color:  #ffffff;
-    border-radius: 3px;
-    border: solid 1px #2c0d2b ;
-    border-radius: 20px;
-    
-}
-
-
-
-
 #link_wrapper{
     color: #2c0d2b;   
 }
@@ -40,33 +16,24 @@ body{
     text-decoration: none;
 }
 
-.box-set{
-    box-sizing: border-box;
-    width: 100%;
-    border: 2px solid #dddddd;
-     
-}
 
- 
-
-.main{
+.mainP{
     clear: both;
     border: 1px  #dddddd;
     background: #ffffff;
     margin: 0 auto; 
     width: 900px;   
-    padding-bottom: 0px; 
+    padding-bottom: 30px; 
     margin-top: 30px;
     margin-bottom: 30px;
     box-sizing: border-box;
-    
     border: solid 1px #2c0d2b ;
-    border-radius: 30px;
+    border-radius: 35px;
 }
 
-#sub_text{
+#sub1_text{
     color: #2c0d2b;
-    margin: 0px;
+    margin: 30px;
     padding: 0px;
     padding-left: 0;
     font-family:  'Georgia', Times, 'Times New Roman', 'serif';
@@ -74,7 +41,7 @@ body{
 }
 
 #line{
-    border-bottom: 2px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
 }
 
 .icon{
@@ -86,51 +53,33 @@ body{
 .all_images {
     position: relative; 
     display: inline-block;
-    border: 1px solid  #2c0d2b;
+    border: 5px solid  #2c0d2b;
     margin-top: 15px;
+    
   
 }
 
 img{
     width: 300px;
-    height: 250px;
+    height: 220px;
     padding: 15px; 
     
 }
 
 h6{
     position: absolute;
-    /* bottom: 5px; */
     background:  #2c0d2b;
     padding: 20px;
     height: 40px;
     width: 270px;
     margin:20px;
     left: -5px;
-    /* padding-bottom: -20px; */ 
-    text-align: center;
-    color: white;
-    
-}
-
-
-.pet{
-    position: absolute;
-    bottom: 5px;
-    background:  #2c0d2b;
-    padding: 20px;
-    height: 40px;
-    width: 270px;
-    margin:20px;
-    left: -5px;
-    padding-bottom: -20px;
     text-align: center;
     color: white;
     
 }
 
 #codelink_wrapper{
-    /* margin:  auto; */
     text-align: center;
     padding-top: 5px;
     color: #2c0d2b;
@@ -138,10 +87,8 @@ h6{
 
 #plink_wrapper{
     margin: 30px auto;
-    /* padding-bottom: 10px; */
     color: #2c0d2b;
-    
-    /* margin-top: 20px; */
+     
    }
 
    
@@ -155,7 +102,7 @@ and (max-width: 1280px){
         
     }
     
-    .main{
+    .mainP{
         width: 790px;
     }
 
@@ -169,7 +116,7 @@ and (max-width: 768px){
         left: 70px;
     }
     
-         .main{
+         .mainP{
              width: 600px;
          }
 }
@@ -200,7 +147,7 @@ and (max-width: 768px){
              left: 30px;
              
          }
-         .main{
+         .mainP{
              width: 420px;
          }
 

@@ -1,14 +1,12 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 import './contact.css'
-import IMG from '../../images/link.jpg'
-
+ 
 
 function About() {
 
   return (
     <div>
-    <div class="main">
+    <div class="mainC">
  
      <form id="clear" name="Contact" action="mailto:sile.kiman@yahoo.com" method="POST" enctype="text/plain" subject="">
       

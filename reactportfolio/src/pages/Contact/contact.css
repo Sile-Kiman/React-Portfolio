@@ -1,9 +1,7 @@
 body{
     position: relative;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-image: url((../../images/criss-cross.png));
-     
-    
+    background-image: url(../../images/criss-cross.png);
   
 }
  
@@ -13,7 +11,6 @@ body{
 }
 
  
-
 .main-header{
     background:  #2c0d2b;
     border: 1px solid #cccccc;
@@ -36,8 +33,8 @@ body{
     text-align: center;
     margin: 20px;
 
-    
 }
+
 .a_link{
     color: #ffffff;
     font-size: 18px;
@@ -50,26 +47,26 @@ body{
     padding-bottom: 15px;
 }
  
-.main{
+.mainC{
     clear: both;
-    border: 1px  #dddddd;
+    border: 2px  #dddddd;
     background: #ffffff;
     margin: 0 auto; 
-    width: 900px;   
+    width: 700px;   
     padding-bottom: 0px; 
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     box-sizing: border-box;
     border: solid 1px #2c0d2b ;
-    border-radius: 10px;
+    border-radius: 15px;
 }
+
 #sub_text{
     color: #2c0d2b;
     margin: 20px;
     padding: 10px;
     padding-left: 0;
     font-family:  'Georgia', Times, 'Times New Roman', 'serif';
-
 }
 
 form{
@@ -78,9 +75,6 @@ form{
     background: #ffffff;
     margin: 0 auto;   
     margin-right: 30px;
-     
-    
-
 }
  
 #line{
@@ -159,7 +153,7 @@ and (max-width: 980px){
         
     }
     
-    .main{
+    .mainC{
         width: 790px;
     }
 
@@ -175,7 +169,7 @@ and (max-width: 768px){
         left: 70px;
     }
     
-         .main{
+         .mainC{
              width: 600px;
          }
 }
@@ -206,7 +200,7 @@ and (max-width: 768px){
              left: 30px;
              
          }
-         .main{
+         .mainC{
              width: 420px;
          }
 
