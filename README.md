@@ -1,6 +1,5 @@
 # React-Portfolio
-
-# Professional-Materials
+ 
 
 Title: My Portfolio
 
@@ -34,7 +33,7 @@ Test:
 Image of the Site:
 
 ![image](https://github.com/Sile-Kiman/Professional-Materials/blob/master/assets/images/mobileView.PNG)
-![image](https://github.com/Sile-Kiman/Professional-Materials/blob/master/assets/images/about.PNG)
+ 
 ![image](https://github.com/Sile-Kiman/Professional-Materials/blob/master/assets/images/portfolio.PNG)
 ![image](https://github.com/Sile-Kiman/Professional-Materials/blob/master/assets/images/contact.PNG)
  
