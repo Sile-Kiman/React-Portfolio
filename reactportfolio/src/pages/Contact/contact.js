@@ -16,18 +16,17 @@ function About() {
 
     <div id="fields">
         Name:<br/>
-        <input class ="allFields" name="Flname" type="text" value="" placeholder="Your Name"></input>
+        <input class ="allFields" name="Flname" type="text"  placeholder="Your Name"></input>
         <br/>
         Subject:<br/>
-        <input type="text" value=" " placeholder="Subject"></input>
+        <input type="text" placeholder="Subject"></input>
         <br/>
         Message:<br/>
         <textarea name="text" placeholder="Enter your message"></textarea>
         <br/>
          <div id="plink_wrapper">
             <input type="submit" class = "subBtn" value="Submit" /> 
-            <a href="#" id="clearBTN" onclick="resetForm()"> Clear</a> 
-        </div>
+         </div>
          
         </div>
      </form>
