@@ -20,7 +20,7 @@ export default footer =>{
                <a href='/resume' target="_blank"><i className="far fa-file"> Resume </i></a>
             </div>
              
-            <span> &copy;2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.</span>
+            <span> &copy;2020 www.silekiman.com. All Rights Reserved.</span>
         </div>
 
     </footer>

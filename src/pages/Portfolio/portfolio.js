@@ -6,6 +6,8 @@ import Burger from '../../images/burger.PNG'
 import Event from '../../images/desktopView.png'
 import Library  from '../../images/allBooked.PNG'
 import '../Portfolio/portfolio.css' 
+import Shoestring from '../../images/shoestring.png'
+import Employee from '../../images/employee.png'
 
 
 function Portfolio() {
@@ -18,7 +20,34 @@ function Portfolio() {
           <div id="line">
             <h1 id="sub1_text">Portfolio</h1>
           </div>
+           
+           
+          <div className="row">
+                 <div className="col-md-1"></div>
+                   <div className="col-md-4">
+                    <div className="all_images">
+                        <div id="codelink_wrapper">
+                            <a href="https://github.com/cmarshman/shoestring" target="_blank"> View Code </a>&#124;
+                            <a href="https://www.shoestring.me/" target="_blank"> View Site </a>&#124;
+                    </div>
+                        <img src={Shoestring} alt="shoestring"/>
+                    </div>
+                </div>
+                
+                <div className="col-md-1"></div>
+                <div className="col-md-4">
 
+                     <div className="all_images">
+                        <div id="codelink_wrapper">
+                            <a href="https://github.com/Sile-Kiman/All-Booked" target="_blank"> View Code </a>&#124;
+                            <a href="https://cryptic-chamber-77839.herokuapp.com/" target="_blank"> View Site </a>&#124;
+                        </div>
+                         <img src={Library} alt="library"/>   
+                       </div>
+                   </div>
+
+                
+             </div>
             <div className="row full_row">
                 <div className="col-md-1"></div>
                 <div className="col-md-4">   
@@ -42,6 +71,29 @@ function Portfolio() {
                     </div>
                 </div>
             </div>
+            <div className="row">
+                <div className="col-md-1"></div>
+                <div className="col-md-4">
+                    <div className="all_images">
+                        <div id="codelink_wrapper">
+                            <a href="https://github.com/Sile-Kiman/EventFinder-Group9" target="_blank"> View Code </a>&#124;
+                            <a href="https://sile-kiman.github.io/EventFinder-Group9/" target="_blank"> View Site </a>&#124;
+                        </div>
+                        <img src= {Event } alt="event"/>    
+                    </div>
+                </div>
+                <div className="col-md-1"></div>
+                <div className="col-md-4">
+                    <div className="all_images">
+                        <div id="codelink_wrapper">
+                            <a href="https://github.com/Sile-Kiman/Employee-Directory" target="_blank"> View Code </a>&#124;
+                            <a href="https://fathomless-reaches-03065.herokuapp.com/" target="_blank"> View Site </a>&#124;
+                        </div>
+                         <img src={Employee} alt="library"/>    
+                    </div>
+                </div>
+
+            </div>
 
             <div className="row">
                 <div className="col-md-1"></div>
@@ -51,8 +103,7 @@ function Portfolio() {
                             <a href="https://github.com/Sile-Kiman/Note-Taker" target="_blank"> View Code </a>&#124;
                             <a href="https://cryptic-river-86772.herokuapp.com/notes" target="_blank"> View Site </a>&#124;
                         </div> 
-                       <img src={Note} alt="project"/> 
-                        
+                       <img src={Note} alt="project"/>   
                     </div>
                 </div>
                 <div className="col-md-1"></div>
@@ -63,42 +114,14 @@ function Portfolio() {
                             <a href="https://pacific-ravine-38343.herokuapp.com/" target="_blank"> View Site </a>&#124;
                         </div>    
                          <img src={Burger} alt="burger"/>
-                     </div>
+                    </div>
                 </div>
             </div>
 
-            <div className="row">
-                <div className="col-md-1"></div>
-                <div className="col-md-4">
 
-                    <div className="all_images">
-                        <div id="codelink_wrapper">
-                            <a href="https://github.com/Sile-Kiman/EventFinder-Group9" target="_blank"> View Code </a>&#124;
-                            <a href="https://sile-kiman.github.io/EventFinder-Group9/" target="_blank"> View Site </a>&#124;
-                        </div>
-                        
 
-                        <img src= {Event } alt="event"/>
-                         
-                    </div>
-                </div>
-                <div className="col-md-1"></div>
-                <div className="col-md-4">
-
-                    <div className="all_images">
-                        <div id="codelink_wrapper">
-                            <a href="https://github.com/Sile-Kiman/All-Booked" target="_blank"> View Code </a>&#124;
-                            <a href="https://cryptic-chamber-77839.herokuapp.com/" target="_blank"> View Site </a>&#124;
-                    
-                        </div>
-                         <img src={Library} alt="library"/>
-                          
-                    </div>
-                </div>
-             
       </div>
       </div>
-    </div>
 
     );
 
