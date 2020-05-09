@@ -24,13 +24,10 @@ function About() {
               My name is Mamessile Kiman. I go by "Sile Kiman".
               I moved to Charlotte several years ago from Nebraska where I went to school and graduated from
               Bellevue University with Bachelor of Science (Computer Information
-              System.) I've been here ever since</p>
+              System.) I've been here ever since. </p>
+            
             <p>
-            <span className="decoration">Personal life:</span> 
-            I'm a wife and a mother. I love to travel, meet new people and learn new technologies.  
-            </p>
-            <p>
-              <span className="decoration">Professional background:</span>  
+              <span className="decoration">Professional background:  </span>  
                 For the past ten years I worked as Technical Software Analyst and recently became a Web Developer.
                 I have experience in developing a functional web applications using the newest Framework such as ReactJS and software testing.  I’ve demonstrated hands-on skills with
                 various software development languages and tools. I have several years of experience working with

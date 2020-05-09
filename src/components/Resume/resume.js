@@ -1,6 +1,6 @@
 import React from "react";
 import './resume.css'
-import Resumeform from '../../images/Sile_Developer_Resume.pdf'
+import Resumeform from '../../images/Sile-Kiman.pdf'
 
 export default function Resume() {
 
