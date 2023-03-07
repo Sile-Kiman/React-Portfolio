@@ -21,16 +21,17 @@ function About() {
         <div className="col-md-10 clearfix">
           <img className="P-img rounded" src={IMG} alt="Sile"/>
             <p>
-              My name is Mamessile Kiman. I go by "Sile Kiman".
-              I moved to Charlotte several years ago from Nebraska where I went to school and graduated from
-              Bellevue University with Bachelor of Science (Computer Information
-              System.) I've been here ever since. </p>
+              My name is "Sile Kiman".
+              I have Bachelor of Science in Computer Information.
+              I have a passion for learning new technologies
+              As a billingual I'm fluently in French and English</p>
             
             <p>
               <span className="decoration">Professional background:  </span>  
-                For the past ten years I worked as Technical Software Analyst and recently became a Web Developer.
-                I have experience in developing a functional web applications using the newest Framework such as ReactJS and software testing.  I’ve demonstrated hands-on skills with
-                various software development languages and tools. I have several years of experience working with
+                For the past ten years I worked as Technical Software Analyst.
+                I also have experience creating cutting edge websites for clients
+                using wordpress and different APIs to meets theirs various needs. 
+                I have several years of experience working with
                 waterfall and agile methodologies. In short, all these experiences have helped me develop an 
                 exceptional communication, teamwork and a strong analytical skills with ability to multitask and quickly
                 adjust to people, circumstances and responsibilities.
